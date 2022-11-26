@@ -2,6 +2,6 @@
 export default defineNuxtConfig({
   routeRules: {
     "/posts": { static: true },
-    "/posts/**": { swr: 20 },
+    "/posts/**": { swr: 120 },
   },
 });

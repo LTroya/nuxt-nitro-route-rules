@@ -7,7 +7,7 @@ const { data: post } = await useFetch(
 
 <template>
   <div>
-    <h1>{{ post.title }}</h1>
-    {{ post.body }}
+    <h1>Post title: {{ post.title }}</h1>
+    <p>Post body: {{ post.body }}</p>
   </div>
 </template>
